@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="accio.css">
+</head>
+<body>
+
+  <form id="textFormattingForm">
+    <select name="fontFamily">
+        <option value="Arial">Arial</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Courier New">Courier New</option>
+    </select>
+
+    <button type="button" id="decreaseSize">-</button>
+    <input type="number" name="fontSize" id="fontSizeInput" value="12" min="8" max="72">
+    <button type="button" id="increaseSize">+</button>
+
+    <button type="button" id="boldBtn"><b>B</b></button>
+    <button type="button" id="italicBtn"><i>I</i></button>
+    <button type="button" id="underlineBtn"><u>U</u></button>
+    <button type="button" id="strikethroughBtn"><s>S</s></button>
+    <button type="button" id="alignLeftBtn">Left</button>
+<button type="button" id="alignCenterBtn">Center</button>
+<button type="button" id="alignRightBtn">Right</button>
+
+    <input type="color" name="textColor" id="textColor">
+</form>
+
+
+    
+    
+      <div class="formula-bar">
+        <div class="selected-cell-display"></div>
+        <input type="text" class="formula-input" placeholder="formula">
+      </div>
+      <div class="container">
+        <div class="junction"></div>
+        <div class="head-row"></div>
+        <div class="serial-no"></div>
+        <div class="main-body"></div>
+      </div>
+
+
+    <script src="acciojob.js"></script>
+</body>
+</html>
